@@ -1,0 +1,67 @@
+.servicesb{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.servicesb h1{
+    font-size: x-large;
+    font-weight: 700;
+}
+.servicesh{
+    text-align: center;
+}
+.servicesh h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.service1{
+   background-color:darkslategray;
+    border-radius: 20px;
+}
+.service1:hover{
+     transition: 0.5s;
+    transform: scale(1.05);
+}
+.service2{
+  
+   background-color:darkslategray;
+    padding: 28px;
+    border-radius: 20px;
+    
+}
+.service2:hover{
+     transition: 0.5s;
+    transform: scale(1.05);
+}
+.service3{
+   
+  background-color:darkslategray;
+    padding: 28px;
+    border-radius: 20px;
+}
+.service3:hover{
+     transition: 0.5s;
+    transform: scale(1.05);
+}
+.imgl{
+    height: 200px;
+}
+
+@media (max-width: 720px) {
+    .servicesb {
+        flex-direction: column;  /* stack vertically */
+        gap: 25px;
+        align-items: center;     /* center all boxes */
+    }
+
+    .service1, .service2, .service3 {
+        width: 90%;          /* take full width */
+        max-width: 320px;    /* don’t stretch too much */
+    }
+
+    .servicesh h1 {
+        font-size: 32px;     /* smaller heading */
+    }
+}

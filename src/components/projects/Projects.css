@@ -1,0 +1,148 @@
+.boxes{
+   display: flex;
+   gap:40px;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+.intro h1{
+    font-size:50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+.intro p{
+    font-size: 23px;
+    font-weight: 600;
+}
+.intro{
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 55px; 
+}
+.boxp1{
+    height: auto;
+    width: 400px;
+   
+    padding: 30px;
+    background-color:rgb(49, 105, 207);
+     border-radius: 5%;
+}
+.boxp1:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    border: 2px solid black;
+}
+.boxp2:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    border: 2px solid black;
+}
+.boxp3:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    border: 2px solid black;
+}
+.boxp4:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    border: 2px solid black;
+}
+.boxp5:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    border: 2px solid black;
+}
+.boxp6:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    border: 2px solid black;
+}
+.boxes img:hover{
+    transition:0.03s ;
+    transform: scale(1.05);
+}
+.boxp2{
+    height: auto;
+    width: 400px;
+    
+    padding: 30px;
+     background-color:rgb(49, 105, 207);
+      border-radius: 5%;
+}
+.boxp3{
+    height: auto;
+    width: 400px;
+   
+    padding: 30px;
+     background-color:rgb(49, 105, 207);
+      border-radius: 5%;
+}
+.boxp4{
+    height: auto;
+    width: 400px;
+  
+    padding: 30px;
+     background-color:rgb(49, 105, 207);
+      border-radius: 5%;
+}
+.boxp5{
+    height: auto;
+    width: 400px;
+   
+    padding: 30px;
+     background-color:rgb(49, 105, 207);
+      border-radius: 5%;
+}
+.boxp6{
+    height: auto;
+    width: 400px;
+   
+    padding: 30px;
+     background-color:rgb(49, 105, 207);
+     border-radius: 5%;
+}
+.boxes h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 9px;
+    margin-bottom: 8px;
+}
+.boxes p{
+    font-weight: 500;
+}
+.boxes button{
+    height: 40px;
+    width: 150px;
+    
+    border-radius: 30px 30px;
+    margin-top: 17px;
+      background: linear-gradient(270deg,#DF8908,#B415ff 100%);
+}
+.boxes button:hover{
+    
+     background: linear-gradient(270deg,#e9ae56,#B415ff 100%);
+}
+
+@media (max-width: 720px) {
+    .skills-box {
+        grid-template-columns: 1fr;  
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+        width: 90%;         
+        max-width: 300px;  
+        margin: 0 auto;     
+    }
+
+    .skills {
+        font-size: large;  
+    }
+
+    .skills span {
+        font-size: 36px;    
+    }
+}
+

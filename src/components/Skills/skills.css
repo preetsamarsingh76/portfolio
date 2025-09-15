@@ -1,0 +1,151 @@
+.skills-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 30px 60px;
+ 
+}
+
+.skills{
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.skills span{
+    font-weight: bold;
+    font-size: 50px;
+}
+.box1{
+    height: 250px;
+    width: 220px;
+   border: 2px solid red;
+   padding-left: 30px;
+   padding-top: 30px;
+   background-color:darkslateblue;
+     border-radius: 20px;
+   
+}
+.box1:hover{
+      transform: scale(1.05);
+    transition: 0.3s;
+    border: 4px solid red;
+}
+.box2:hover{
+      transform: scale(1.05);
+    transition: 0.3s;
+      border: 4px solid red;
+}
+.box3:hover{
+      transform: scale(1.05);
+    transition: 0.3s;
+      border: 4px solid red;
+}
+.box4:hover{
+      transform: scale(1.05);
+    transition: 0.3s;
+      border: 4px solid red;
+}
+.box5:hover{
+      transform: scale(1.05);
+    transition: 0.3s;
+      border: 4px solid red;
+}
+.box6:hover{
+      transform: scale(1.05);
+    transition: 0.3s;
+      border: 4px solid red;
+}
+
+.box2{
+    height: 250px;
+    width: 220px;
+   border: 2px solid red;
+   padding-left: 30px;
+   padding-top: 30px;
+   background-color:darkslateblue;
+   transition: 0.3s;
+   border-radius: 20px;
+}
+.box3{
+    height: 250px;
+    width: 220px;
+   border: 2px solid red;
+   padding-left: 30px;
+   padding-top: 30px;
+   background-color:darkslateblue;
+     border-radius: 20px;
+}
+.box4{
+    height: 250px;
+    width: 220px;
+   border: 2px solid red;
+   padding-left: 30px;
+   padding-top: 30px;
+   background-color:darkslateblue;
+     border-radius: 20px;
+}
+.box5{
+    height: 250px;
+    width: 220px;
+   border: 2px solid red;
+   padding-left: 30px;
+   padding-top: 30px;
+   background-color:darkslateblue;
+     border-radius: 20px;
+}
+.box6{
+    height: 250px;
+    width: 220px;
+   border: 2px solid red;
+   padding-left: 30px;
+   padding-top: 30px;
+   background-color:darkslateblue;
+     border-radius: 20px;
+}
+.box7{
+    height: 250px;
+    width: 220px;
+   border: 2px solid red;
+   padding-left: 30px;
+   padding-top: 30px;
+     border-radius: 20px;
+}
+.skills-box hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg,#DF8908 -5.09%, #B415FF 106.28%);
+    margin-top: 7px;
+  
+}
+.skills-box p{
+    margin-top: 15px;
+    text-align: center;
+}
+@media (max-width: 720px) {
+    .skills-box {
+        grid-template-columns: 1fr;  
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+        width: 90%;         
+        max-width: 300px;   
+        margin: 0 auto;    
+    }
+
+    .skills {
+        font-size: large;   
+    }
+
+    .skills span {
+        font-size: 36px;    
+    }
+}
