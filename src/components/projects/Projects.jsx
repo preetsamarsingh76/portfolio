@@ -42,13 +42,13 @@ const Projects = () => {
         <div className='boxp5'>
          <img src={recipe}alt=""height={100} width={400} />
          <h2 style={{WebkitTextFillColor:'brown'}}>Recipe Finder Website</h2>
-         <p>Generate strong and secure passwords effortlessely.</p>
+         <p>Developed a Recipe Finder website that enables users to search and explore recipes by dish name.</p>
          <a href='https://github.com/preetsamarsingh76/FoodRecipe.git'><button>View Project</button></a>
         </div>
         <div className='boxp6'>
          <img src={news} alt=""height={100} width={400} />
          <h2 style={{WebkitTextFillColor:'darkgrey'}}>News App</h2>
-         <p>Generate strong and secure passwords effortlessely.</p>
+         <p>Users can browse articles by categories such as technology, sports, health, and business, with a clean and user-friendly interface.</p>
          <a href='https://github.com/preetsamarsingh76/News-project.git
          '><button>View Project</button></a>
          </div>
